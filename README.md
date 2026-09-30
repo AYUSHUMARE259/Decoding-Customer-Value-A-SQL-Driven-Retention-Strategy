@@ -6,7 +6,7 @@ A customer-intelligence project for a D2C fashion brand (about 3,900 customers, 
 
 > Is the business building a loyal customer base, or is it reliant on continuous promotional activity, and what should it do in either case?
 
-**Team:** _add names and roll numbers (23110346, 23110031)_
+**Team:** _Ayush umare and antariksh dongre (23110346, 23110031)_
 
 ---
 
