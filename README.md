@@ -33,7 +33,6 @@ Full write-up: [`reports/Retention_Playbook_and_Executive_Summary.docx`](reports
 │   └── Decoding_Customer_Value_23110346_23110031.ipynb   # cleaning + feature engineering
 ├── sql/
 │   ├── sql_query_for_all_3q.sql            # Q1-Q3 segmentation queries
-│   ├── sql_query_q4_q5.sql                 # Q4-Q5: promo sunset sizing, ideal customer
 │   └── outputs/                            # sql_query_q1.csv, q2.csv, q3.csv
 ├── dashboard/
 │   └── Customer_Value_Retention_Founder_Dashboard.pbix   # Power BI, 4 panels
@@ -88,8 +87,6 @@ The brief requires testing at least two definitions and arguing for one.
 | `sql_query_for_all_3q.sql` (Q1) | What separates high-value from low-value customers? |
 | Q2 | Which season and category combinations go with high prior purchases? |
 | Q3 | Which states show organic demand vs discount-driven volume? |
-| `sql_query_q4_q5.sql` (Q4) | Who to stop discounting, and what is at stake? |
-| Q5 | What does the ideal customer look like, and where are they concentrated? |
 
 Queries are MySQL-style (`use project_db;`). Load `enriched_dataset.csv` into a table called `enriched_dataset`.
 
